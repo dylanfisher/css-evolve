@@ -1,0 +1,17 @@
+//
+// Home
+//
+
+body {
+    overflow-x: hidden;
+}
+
+// Reset string based values to integers
+body * {
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+  line-height: normal;
+}

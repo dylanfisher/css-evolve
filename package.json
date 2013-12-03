@@ -1,0 +1,15 @@
+{
+  "name": "css-evolve",
+  "version": "0.1.0",
+  "devDependencies": {
+    "load-grunt-tasks": "*",
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-nodeunit": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-sass": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-coffee": "*"
+  }
+}

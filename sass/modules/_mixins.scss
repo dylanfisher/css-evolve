@@ -1,0 +1,22 @@
+//
+//  Mixins
+//
+
+// @include transition(all, 0.2s, ease-in-out);
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
+// CSS Columns
+@mixin columns($count, $gap){
+	columns: $count;
+    -moz-column-count: $count;
+    -webkit-column-count: $count;
+    column-gap: $gap;
+    -moz-column-gap: $gap;
+    -webkit-column-gap: $gap;
+}

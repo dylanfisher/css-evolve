@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'GillSansMTRegular';
+    src: url('assets/gil.eot');
+    src: url('assets/gil.eot') format('embedded-opentype'),
+         url('assets/gil.woff') format('woff'),
+         url('assets/gil.ttf') format('truetype'),
+         url('assets/gil.svg#GillSansMTRegular') format('svg');
+}
+
+body {
+	font-family: $arial;
+	font-size: 13px;
+}
+
+h1 {	
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: normal;
+	width: 100px;
+}
+
+h2 {	
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 60px;
+	margin-bottom: 60px;
+}
+
+.small {
+	font-size: $font_size_small;
+}
