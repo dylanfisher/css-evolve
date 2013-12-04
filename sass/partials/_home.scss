@@ -3,6 +3,7 @@
 //
 
 body {
+    display: none;
     overflow-x: hidden;
 }
 
@@ -14,4 +15,5 @@ body * {
 p {
   margin: 0;
   line-height: normal;
+  position: absolute;
 }

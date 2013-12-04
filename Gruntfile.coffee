@@ -24,7 +24,7 @@ module.exports = (grunt) ->
       compileJoined:
           options:
             join: true
-          files: 'js/main.js': ['js/coffee/**/*.coffee'] # concat then compile into single file
+          files: 'js/main.js': ['js/coffee/**/*.coffee', 'js/plugins'] # concat then compile into single file
 
     uglify:
       options:
